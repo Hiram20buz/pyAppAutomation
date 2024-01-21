@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pyappautomation"
+version = "0.1.0"
+description = ""
+authors = ["Hiram20buz"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+appium-python-client = "2.11.1"
+pure-python-adb = "0.3.0.dev0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
